@@ -1,0 +1,176 @@
+
+
+/*----------------------------------------------
+css settings for HTML div exactCenter 
+------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+#main{
+    width:960px;
+    margin:50px auto;
+    font-family:raleway;
+}
+
+
+
+h2{
+    background-color: #FEFFED;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -40px;
+    padding: 15px;
+}
+
+hr{
+    border:0;
+    border-bottom:1px solid #ccc;
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+
+#container{
+    width: 88%;
+    float: left;
+    border-radius: 10px;
+    font-family:raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 25px;
+    margin: 0 40px 40px 0;
+}
+
+select{
+    width:99.5%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family:raleway;
+} 
+
+input[type=submit]{
+    width: 100%;
+    background-color:#FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+input[type=submit]:hover{
+    transform: scale(1.05); 
+}
+#profile{
+    padding:50px;
+    border:1px dashed grey;
+    font-size:20px;
+    background-color:#DCE6F7;
+}
+
+#logout{
+    float:right;
+    padding:5px;
+    border:dashed 1px gray;
+}
+
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+
+i{
+    color: rgb(155, 155, 155);
+}
+/*-----------------------------------------------------------------
+css settings for right side advertisement
+------------------------------------------------------------------*/
+#formget{
+    float:right;
+}
+
+#book_container{
+    width: 331px;
+    height: 558px;
+    /* border: 1px solid black; */
+    float: left;
+    margin: 9px 24px;
+    padding: 20px;    
+    box-shadow: 0px 5px 17px 1px #99A3AD, 0px 0px 40px #EEEEEE;
+}
+hr.type_1 {
+    border: 0;
+    height: 55px;
+    background-image: url(../images/type_1.png);
+    background-repeat: no-repeat;
+    margin: 10px 67px;
+}
+#product_img{
+    margin: 2px 61px;
+    width: 200px;
+}
+img#paypal_logo {
+    float: right;
+    margin-right: 27px;
+    margin-top: 1%;
+    padding-bottom: 15px;
+}
+.fgrow{
+    margin-bottom: 15px;
+}
+
+#return {
+    width: 492px;
+    height: 350px;
+    float: left;
+    border-radius: 10px;
+    font-family: raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 11px;
+    margin: 16PX;
+}
+#return h3#success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: green;
+}
+#return P {
+    margin-left: 122px;
+}
+#return .back_btn {
+    margin-top: 51px;
+    text-align: center;
+}
+#btn {
+    width: 100%;
+    background-color: #FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px 70px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+#formget{
+    float: right;
+}
+#return h3#fail{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: red;
+}
+
+.mrtpbt{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}

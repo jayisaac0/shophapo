@@ -1,0 +1,111 @@
+
+.resetTop {
+	margin-top:55px;
+	margin-bottom:0px;
+}
+.killborder {
+	border:none;
+}
+.thumbnailReset {
+	margin-left:0px;
+	padding:0px;
+}
+
+.pagesitePanelReset {
+	padding:30px;
+	background:#00002E;
+	color:#FFFFFF;
+}
+
+.mydisplay {
+	display:none;
+}
+
+.myHover:hover {
+	box-shadow:0px 4px 4px 4px  grey;
+}
+
+.categoryHover:hover {
+	box-shadow:1px 1px 1px 1px  grey;
+	border:3px solid black;
+	border-radius:0px;
+}
+
+.info:hover {
+	height:300px;
+	z-index:2000;
+	position:absolute;
+	background:red;
+	position:top;
+	box-shadow:0px 4px 4px 4px  grey;
+}
+
+a {
+	text-decoration:none;
+	list-style:none;
+}
+
+ul li {
+	list-style:none;
+	text-decoration:none;
+}
+
+p {
+	text-align:justify;
+	text-align:justify;
+}
+
+.center {
+	text-align:center;
+}
+
+.white {
+	background:#FFFFFF;
+}
+
+@media (max-width: 980px) {
+
+.mscreenhide {
+	display:none;
+}
+
+#contentsize {
+	width:100%;
+}
+
+.contentscreenhide {
+	display:none;
+}
+#myOverlay {
+	display:none;
+}
+
+.autofixheight {
+	height:auto;
+}
+#hideNavToggle {
+	display:none;
+}
+
+}
+
+
+@media (max-width: 360px) {
+
+.contentscreenhide {
+	display:none;
+}
+.fullersize {
+	width:100%;
+	height:auto;
+}
+#hideNavToggle {
+	display:none;
+}
+
+}
+
+
+
+
+
