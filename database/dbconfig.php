@@ -1,9 +1,9 @@
 <?php
 class Database
 {   
-    private $host = "localhost";
-    private $db_name = "shopup";
-    private $username = "root";
+    private $host = "http://gander.000webhostapp.com/";
+    private $db_name = "id9689334_gandertech";
+    private $username = "id9689334_root";
     private $password = "Jayluv3139";
     public $conn;
      
