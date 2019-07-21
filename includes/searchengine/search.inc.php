@@ -5,7 +5,7 @@
 
     if (!empty($search_text)) {
 
-        if($connect = mysqli_connect('localhost', 'root', 'Jayluv3139', 'shopup' )) {
+        if($connect = mysqli_connect('db4free.net', 'shophapo', 'Jayluv3139', 'shophapo' )) {
 
         $query = " SELECT * FROM `users` JOIN `products` ON `users`.`user_id`=`products`.`user_id`  WHERE `shopname` LIKE '%".mysqli_real_escape_string($connect, $search_text)."%' ";
         $query_run = mysqli_query($connect, $query);
