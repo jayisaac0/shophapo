@@ -1,7 +1,7 @@
 <?php
 class Database
 {   
-    private $host = "http://gander.000webhostapp.com/";
+    private $host = "db4free.net";
     private $db_name = "shophapo";
     private $username = "shophapo";
     private $password = "Jayluv3139";
